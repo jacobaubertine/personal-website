@@ -1,0 +1,66 @@
+html {
+    font-family: "DM Sans", sans-serif;
+    background-color: rgb(231, 232, 235);
+}
+
+body {
+    width: 80%;
+    margin: 20px auto;
+    padding: 0 20px 20px 20px;
+    border: 6px double rgb(29, 29, 29);
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    color: rgb(29, 29, 29);
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+li {
+    font-size: 20px;
+    color: rgb(29, 29, 29);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0;
+  letter-spacing: 2px;
+}
+
+.navlinks {
+  display: block;
+  margin: 0;
+  padding: 0 40px;
+}
+
+.navlinks li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.row-body {
+  display: flex;
+}
+
+.column-nav {
+  margin: 0;
+  padding: 0;
+  flex: 25%
+}
+
+.column-content {
+  flex: 75%;
+}
